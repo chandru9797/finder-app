@@ -1,0 +1,117 @@
+.topbarcontainer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: rgb(20, 204, 204);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.topbarbutton{
+    margin-left: 30px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 20%;
+
+}
+.topbarbutton:hover{
+    color: white;
+    background-color: black;
+}
+.topbarimg{
+    width: 36px;
+    height: 36px;
+    border-radius: 40%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.topbarleft{
+    flex: 3;
+}
+
+.topbarcenter{
+    flex: 5;
+}
+
+
+
+.logo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.er{
+    color: purple   
+}
+
+.searchbar{
+    width: 100%;
+    background-color: white;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    /* padding-left: 10px; */
+    cursor: pointer;
+}
+.searchicon{
+    font-size: 20px !important;
+    padding-left: 10px;
+}
+
+.searchinput{
+    border: none;
+    width:90%;
+    cursor: pointer;
+}
+
+.searchinput:focus{
+    outline: none;
+}
+
+/* for rightside */
+.topbarright{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 700;
+}
+
+.topbarlink{
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.topbaricons{
+    display: flex;
+    align-items: center;
+}
+
+.topbariconitem{
+    margin-left: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.topbariconName{
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    background-color: rgb(201, 0, 0);
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
